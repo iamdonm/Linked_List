@@ -1,1 +1,1 @@
-import .Linked_List
+from .Linked_List import *
