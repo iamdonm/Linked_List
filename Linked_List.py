@@ -18,7 +18,7 @@ class LinkedList:
            self.head = node 
         return True 
     
-    def get_head(self):
+    def gethead(self):
         return self.head
 
     def search(self, d):
@@ -30,7 +30,7 @@ class LinkedList:
                 node = node.next
         return False
 
-    def print(self):
+    def printlist(self):
         node = self.head
         if node == None:
            print(" Linked list is empty")
